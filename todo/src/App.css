@@ -1,0 +1,42 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+}
+
+.input-group button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
